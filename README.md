@@ -1,71 +1,69 @@
 # Robert Zerby (@HindsightWise)
-### AI Systems & Autonomous Agent Engineer | Benchmark & Evaluation Architect
+### Human–AI Systems Director & Oversight Architect | 25-Year Physical Systems Diagnostician
 
-> Designing long-horizon software engineering benchmarks, deterministic grading rubrics, and autonomic multi-agent operating systems. Bridging frontier LLM developer agent orchestration with 20+ years of high-consequence electromechanical systems diagnostics.
+> Directing frontier AI coding and research agents through 25+ years of real-world root-cause diagnostic instinct, comprehensive system context, and deterministic verification guardrails.
 
-[Email](mailto:ZerbytheBoss@gmail.com) • [Kaggle: Zerbytheboss](https://www.kaggle.com/zerbytheboss) • Location: Yorba Linda, CA
-
----
-
-## 🎯 Focus & Architecture
-
-I build systems that bridge **frontier autonomous AI agents** and **deterministic, grounded software verification**. My work centers on:
-1. **Developer Agent Evals & SWE Benchmarks**: Designing realistic, multi-turn software engineering tasks, anti-tampering test harnesses, and deterministic rubrics that cannot be gamed.
-2. **Competitive AI & Fluid Reasoning**: High-throughput offline inference pipelines and multi-agent coordination for complex benchmarks (ARC Prize 2026, Kaggle).
-3. **Autonomic Agent Operating Systems**: Polyglot, actor-model concurrency, WASM sandboxing, and sensory telemetry built from first principles in Rust, Python, and TypeScript.
-4. **Bedrock Physical Grounding**: Bringing two decades of high-stakes, zero-downtime electromechanical systems diagnostics to eliminate LLM hallucinations and brittle synthetic assumptions.
+[Email](mailto:ZerbytheBoss@gmail.com) • [LinkedIn](https://www.linkedin.com/in/robert-zerby-49520596/) • [X (@Zerbytheboss)](https://x.com/Zerbytheboss) • [Kaggle](https://www.kaggle.com/zerbytheboss) • Yorba Linda, CA
 
 ---
 
-## 🚀 Featured Repositories & Research Systems
+## 🤝 How We Work ("The Reality of Us")
 
-### 🔬 [Gemma 4 Developer Agent Evaluation Suite](https://github.com/HindsightWise/gemma-4-developer-agent)
-*Google DeepMind Gemma 4 Developer Agent Challenge*
-- **Architecture**: End-to-end evaluation harness for autonomous coding agents solving long-horizon GitHub issues across 120+ benchmark tasks (FastAPI, Rich, Requests, HTTPX).
-- **Dual-Container Sandbox**: Container A executes interactive agent tool loops and patch extraction; Container B executes isolated git-apply validation and pytest verification in a sanitized runtime.
-- **Anti-Tampering Invariants**: Automated git resets ( and ) ensuring patches are scored strictly against unseen ground-truth unit tests.
-- **Bedrock Intercepts**: Identified and resolved benchmark failure modes including AST async route-handler voids, tool-result string double-escaping, LoRA KV cache starvation in vLLM, and context-window patch loss.
+Every repository on this profile is built through an explicit **Human–AI division of labor**:
 
-### 🧩 [ARC-AGI-3 DualBrain & Apex Engine](https://github.com/HindsightWise/ARC-AGI-3-DualBrain)
-*ARC Prize 2026 (ARC-AGI-3) Competitive Intelligence Engine*
-- **Architecture**: Dual-Brain cognitive architecture with two-phase meta-planning, working memory hierarchy, and loop interception evaluated across 110 unseen interactive environments.
-- **Hardware & Envelope**: High-throughput offline inference engine running on NVIDIA RTX Pro 6000 (96GB VRAM) within a strict 9-hour compute budget.
-- **Performance**: Multi-token prediction (MTP) inference utilizing SGLang achieving 558 tokens/sec sustained throughput and Relative Human Action Efficiency (RHAE) bounded search.
+- **What I Bring (The Human Operator)**: I am not a traditional academic ML theorist or a solo whiteboard syntax grinder. For 25 years, I diagnosed, built, and audited high-consequence physical, mechanical, and regulatory systems—scaling **Mission Service and Parts, Inc.** 5x across 80+ Southern California fuel sites with a **100% pass rate** across EPA, SCAQMD, Weights & Measures, and SWRCB UST audits. I provide the **system architecture, root-cause failure intuition, persistent cross-project context, and verification gates** that stop autonomous agents from drifting or hallucinating.
+- **What the AI Brings (The Compute Engine)**: My AI collaborators (Claude, Gemini, and specialized local/remote critic models) translate those architectural constraints into raw Python, Rust, TypeScript, and mathematical implementations—verified at every step by deterministic test harnesses and orthogonal red-team gates.
 
-### 🌾 [Kaggriculture Simulation Engine](https://github.com/HindsightWise/kaggriculture-simulation-engine)
+---
+
+## 🛡️ AI Oversight, Red-Teaming & Agent Harnesses
+
+### 1. [Sovereign Oversight Harness (`sovereign-oversight-harness`)](https://github.com/HindsightWise/sovereign-oversight-harness)
+*41-Subclass Agent Oversight Hierarchy (`s7..s41`), Budget-Augmented POMDP & Episodic Memory Web*
+- **Reset-Aware Settled-State Oracle (`s15`)**: Prevents false-positive grading on transient `Cycle 0` states by enforcing verification on settled `Cycle 1+` state.
+- **Spec-Only Context-Poisoning Regeneration (`s29`)**: Separates compiler/lint errors (routed to surgical repair) from semantic failures that poison the context window ($\Delta_{c1} > 0$), purging broken drafts and regenerating cleanly from the specification.
+- **Budget-Augmented POMDP (`budget_pomdp.py`)**: Tracks multi-resource agent expenditure across `steps`, `tool_calls`, `tokens`, and `turns` across 11 cost-conditioned reward objectives.
+- **2-WL Loop Detection (`s11`) & NREM/REM Sleep Consolidation (`sleep_cycle.py`)**: Halts repetitive agent tool loops and compresses working memory with zero-forgetting rollback guards.
+
+### 2. [Orthogonal Red-Team Harness (`orthogonal-redteam-harness`)](https://github.com/HindsightWise/orthogonal-redteam-harness)
+*Tri-Tier Cross-Model Adversarial Critic & Isolated Pytest Counterexample Sandbox*
+- **Breaking Correlated Blind Spots**: Routes code and plans written by a primary coding agent to independent critic models (`moonshotai/Kimi-Dev-72B` for adversarial test generation; `DeepSeek-R1-Distill-Qwen-32B` for mathematical and strategic critique).
+- **Sandboxed Counterexample Execution**: Extracts critic-generated `pytest` suites and executes them against the target module in an isolated subprocess sandbox.
+- **Zero-Idle Compute Lifecycle**: Model Context Protocol (MCP) server with POSIX `0600` masked token storage and automatic `google.colab.runtime.unassign()` shutdown immediately after verification completes.
+
+### 3. [MLX Code Surgeon (`mlx-code-surgeon`)](https://github.com/HindsightWise/mlx-code-surgeon)
+*Zero-Swap Apple Silicon Metal Fill-In-The-Middle (FIM) & Speculative Decoding MCP Server*
+- **Hardware-Bounded Local Compute**: Runs 4-bit `Qwen2.5-Coder` (`0.5B`, `3B`, `7B`) on Apple Metal with parallel speculative decoding (`0.5B` draft accelerating `3B`/`7B` targets) at up to **93.9 tok/s**.
+- **Strict Memory Ceiling**: Keeps peak wired Metal RAM under **4.97 GB** on a 16 GB unified-memory Mac, with explicit GPU cache unloading (`unload=True`) to prevent OS swap collapse.
+
+### 4. [Teleos Consensus Engine (`teleos-consensus-engine`)](https://github.com/HindsightWise/teleos-consensus-engine)
+*Multi-Cohort Signal Probe & TF-IDF Bigram Graph Consensus Clusterer*
+- Harvests operational friction signals across GitHub issues, Hacker News, and developer cohorts, requiring cross-cohort graph consensus before synthesizing engineering blueprints.
+
+---
+
+## 🔬 Benchmarks, Evaluations & Simulation Engines
+
+### 5. [Gemma 4 Developer Agent Evaluation Suite (`gemma-4-developer-agent`)](https://github.com/HindsightWise/gemma-4-developer-agent)
+*Long-Horizon SWE Benchmark & Dual-Container Anti-Tampering Sandbox*
+- End-to-end evaluation harness for autonomous coding agents across 120+ GitHub issue resolution tasks (`FastAPI`, `Rich`, `Requests`, `HTTPX`), enforcing strict container isolation between agent tool execution and unseen ground-truth `pytest` grading.
+
+### 6. [ARC-AGI-3 DualBrain & Apex Engine (`ARC-AGI-3-DualBrain`)](https://github.com/HindsightWise/ARC-AGI-3-DualBrain)
+*Two-Phase Meta-Planning & Working Memory Substrate for Interactive Reasoning*
+- Implements two-phase planning (*Plan to Plan* reconnaissance followed by *Plan a Plan* execution) and offline action-queue verification optimized for Relative Human Action Efficiency (RHAE).
+
+### 7. [Kaggriculture Simulation Engine (`kaggriculture-simulation-engine`)](https://github.com/HindsightWise/kaggriculture-simulation-engine)
 *720-Step Economic & Multi-Agent Tournament Platform*
-- **Architecture**: 2-player economic simulation engine modeling Automated Market Maker (AMM) pricing dynamics, crop phenological lifecycles, and multi-agent resource allocation.
-- **Verification**: Multi-seed Monte Carlo and adversarial test suites stress-testing agent policies against adverse liquidity shocks, price deflation, and center-spawn collisions.
-- **Results**: Verified Grandmaster-level baseline policy achieving 145,000+ score.
+- 2-player economic simulation engine modeling Automated Market Maker (AMM) pricing dynamics and crop lifecycles, verified via multi-seed Monte Carlo stress testing.
 
-### ⚡ [Monad](https://github.com/HindsightWise/Monad)
-*Deterministic Multi-Agent Operating System in async Rust*
-- High-performance, mathematically grounded multi-agent kernel featuring native WASM sandboxing, ONNX semantic memory, true Actor-model concurrency, and topological swarm coordination.
-
-### 🛡️ [Venom-Arsenal](https://github.com/HindsightWise/Venom-Arsenal)
-*High-Performance Rust MCP Tool Suite*
-- Model Context Protocol (MCP) server for autonomous AI agents, implementing low-latency tool execution, payload obfuscation, and consensus mechanisms.
-
-### 🗺️ [California Nature Engine](https://github.com/HindsightWise/california-nature-engine)
-*Offline Cartography & Dynamic UI State Machine*
-- Offline-first iOS (Capacitor) and Web cartographic engine featuring MapLibre GL, MBTiles vector pipelines, and headless browser test runners (Puppeteer/CDP) with deterministic process lifecycle management.
+### 8. [Monad (`Monad`)](https://github.com/HindsightWise/Monad) & [Venom-Arsenal (`Venom-Arsenal`)](https://github.com/HindsightWise/Venom-Arsenal)
+*Async Rust Multi-Agent Runtime & Model Context Protocol (MCP) Tool Suite*
+- Actor-model concurrency, WASM sandboxing, and low-latency MCP server tooling built in Rust and Python.
 
 ---
 
-## 🛠️ Technical Stack & Tooling
+## 📐 Core Operating Principles
 
-| Domain | Technologies |
-| :--- | :--- |
-| **Agent Architectures** | Google Antigravity, ADK, Subagents, Model Context Protocol (MCP), Tool-Use Kinematics, Prompt Engineering |
-| **Inference & Acceleration** | vLLM, SGLang, PyTorch, LoRA/PEFT, Multi-Token Prediction (MTP), Tensor Parallelism |
-| **Core Languages** | Python 3.12/3.13, Rust (SIMD NEON, Tokio), C++, TypeScript, Swift / SwiftUI, Bash/Zsh |
-| **Evaluation & Testing** | Pytest, Puppeteer / Chrome DevTools Protocol, Docker / Container Sandboxes, AST Symbol Multigraphs |
-| **Systems & Diagnostics** | Root-Cause Failure Analysis, Distributed State Machines, Zero-Downtime Reliability, IoT Sensory Telemetry |
-
----
-
-## 📐 Core Engineering Principles
-
-1. **The Sovereign Invariant (Anti-Legacy)**: Never automate or wrap an inefficient legacy process. Always architect directly for the theoretical optimum of mathematical and computational efficiency.
-2. **Ground Truth Over Synthetic Hallucination**: AI benchmarks must mirror the messiness of production systems—broken dependencies, concurrency races, and adversarial edge cases.
-3. **Zero Exploit Drift**: All evaluations enforce strict sandboxing, test-tree isolation, and deterministic rubrics that cannot be spoofed or degraded by prompt injections.
+1. **Human Direction + Machine Compute**: Never pretend the human is a solo code compiler or that the AI has real-world physical judgment. Pair human architectural intuition and failure-mode diagnosis with machine-speed implementation.
+2. **Orthogonal Verification Over Self-Grading**: An agent should never be the sole grader of its own output. Enforce settled-state oracles, isolated test sandboxes, and cross-model adversarial critique.
+3. **Black-Box Vertical Bricks**: Organize systems into self-contained vertical capabilities with a single public interface and explicit state contracts, preventing horizontal coupling knots.
